@@ -1,0 +1,667 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.7f1 (240f4c1f462c) revision 2363212'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 15789 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Digx7/Desktop/Files/Work/Git_Repos/LOWREZ_Jam_2022/LOWREZ Jam 2022
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51548
+Successfully changed project path to: C:/Users/Digx7/Desktop/Files/Work/Git_Repos/LOWREZ_Jam_2022/LOWREZ Jam 2022
+C:/Users/Digx7/Desktop/Files/Work/Git_Repos/LOWREZ_Jam_2022/LOWREZ Jam 2022
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 141.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.7f1 (240f4c1f462c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Digx7/Desktop/Files/Work/Git_Repos/LOWREZ_Jam_2022/LOWREZ Jam 2022/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 with Max-Q Design (ID=0x1f12)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.016237 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 135.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.881 seconds
+Domain Reload Profiling:
+	ReloadAssembly (881ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (628ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+				TypeCache.Initialize (151ms)
+					TypeCache.ScanAssembly (150ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 126.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.574 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1575ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1300ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+				TypeCache.Initialize (324ms)
+					TypeCache.ScanAssembly (318ms)
+				ResolveRequiredComponents (15ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (721ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5909 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (347.8 KB). Loaded Objects now: 6365.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 4.707500 ms (FindLiveObjects: 0.514700 ms CreateObjectMapping: 0.364400 ms MarkObjects: 3.621600 ms  DeleteObjects: 0.205300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31068.436121 seconds.
+  path: Assets/Legal
+  artifactKey: Guid(27bf91885493e31439252449a749b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legal using Guid(27bf91885493e31439252449a749b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03856991012e70cf01b876f18408a736') in 0.023056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.835232 seconds.
+  path: Assets/Legal/Logos
+  artifactKey: Guid(35971126e54af754894ca9077eceab7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legal/Logos using Guid(35971126e54af754894ca9077eceab7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b27871ce7718a061f969af54b82365') in 0.007641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.927225 seconds.
+  path: Assets/Legal/Logos/Digx7 Studi0s_Logo_Full.png
+  artifactKey: Guid(99a7068f96206964499542a7795d999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legal/Logos/Digx7 Studi0s_Logo_Full.png using Guid(99a7068f96206964499542a7795d999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6184c42904950b8a718453dbfdbf1e') in 0.200596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.306147 seconds.
+  path: Assets/Legal/Logos/Digx7 Studi0s_Logo_Full.png
+  artifactKey: Guid(99a7068f96206964499542a7795d999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legal/Logos/Digx7 Studi0s_Logo_Full.png using Guid(99a7068f96206964499542a7795d999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fa89b9a372eb1edcb16b230ab5a998') in 0.074640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.947749 seconds.
+  path: Assets/Legal/Logos/Digx7 Studi0s_Logo_NoText [475x475].png
+  artifactKey: Guid(5d12fbd3f164b214fa1ab721da478ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legal/Logos/Digx7 Studi0s_Logo_NoText [475x475].png using Guid(5d12fbd3f164b214fa1ab721da478ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2760d4bd194a0dd8c4bae1547f3bd8') in 0.047803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.888657 seconds.
+  path: Assets/Legal/Logos/Digx7 Studi0s_Logo_NoText[100x100].png
+  artifactKey: Guid(9fe31141e375eab48afdfd7c21a2f5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legal/Logos/Digx7 Studi0s_Logo_NoText[100x100].png using Guid(9fe31141e375eab48afdfd7c21a2f5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5d08556f8596fbcc4de072494f2582') in 0.024282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.213195 seconds.
+  path: Assets/Legal/Logos/Digx7 Studi0s_Logo_NoText [475x475].png
+  artifactKey: Guid(5d12fbd3f164b214fa1ab721da478ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Legal/Logos/Digx7 Studi0s_Logo_NoText [475x475].png using Guid(5d12fbd3f164b214fa1ab721da478ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a217584626d965cd510e680987f9abdd') in 0.031497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.956538 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f73ca555410406aec34eb582943350') in 0.009244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.223110 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(e7c06369f0e9f31478d4ea36dbfd40d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(e7c06369f0e9f31478d4ea36dbfd40d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a9eb6049df17fe008e8568625fc2d1') in 0.007356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.973895 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(aabd8a41dc3c51948afe391d5badd60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(aabd8a41dc3c51948afe391d5badd60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f80edf4a4cd67d74d09fbf5bb9f3aac') in 0.007791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.723497 seconds.
+  path: Assets/Prefab/Main Camera.prefab
+  artifactKey: Guid(4ee86e1600162424bb9d653afb896b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Camera.prefab using Guid(4ee86e1600162424bb9d653afb896b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c13d0a3753f47156c7da1fae7fdb151') in 0.017445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.333665 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(bc22c44c5674c9840b05fb719b14dbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(bc22c44c5674c9840b05fb719b14dbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb317832e4c2cbc7434391aa4021cb32') in 0.007703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.061815 seconds.
+  path: Assets/Fonts/Press_Start_2P
+  artifactKey: Guid(34c86bf8b7a86a144a7e3f9f1f69dcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Press_Start_2P using Guid(34c86bf8b7a86a144a7e3f9f1f69dcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e702e030d3c4de76a191c69f3c8566d4') in 0.007961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.915402 seconds.
+  path: Assets/Fonts/Press_Start_2P/PressStart2P-Regular.ttf
+  artifactKey: Guid(7d9d55205fbdeed4599ab12091475a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Press_Start_2P/PressStart2P-Regular.ttf using Guid(7d9d55205fbdeed4599ab12091475a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6369152fc2d18dba300f34a2949e02ed') in 0.209138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.551885 seconds.
+  path: Assets/Fonts/Press_Start_2P/OFL.txt
+  artifactKey: Guid(aa1bd5fe534e13b489013f2757ffef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Press_Start_2P/OFL.txt using Guid(aa1bd5fe534e13b489013f2757ffef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c21a00fd3d41a014e769ceef12921e') in 0.010639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.217364 seconds.
+  path: Assets/Fonts/Press_Start_2P/PressStart2P-Regular SDF.asset
+  artifactKey: Guid(7dbdf9b7de3a9854eaedf0b16b5d9924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Press_Start_2P/PressStart2P-Regular SDF.asset using Guid(7dbdf9b7de3a9854eaedf0b16b5d9924) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '0ea8dbf7d040f4783e773ae6427cb425') in 0.092011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.093613 seconds.
+  path: Assets/Prefab/UI
+  artifactKey: Guid(1c3936dfe8f82014c84e0e497d51b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI using Guid(1c3936dfe8f82014c84e0e497d51b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86919de6c88a8bdbaec398f45a75445') in 0.007447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.310139 seconds.
+  path: Assets/Prefab/UI/Normal Text (TMP).prefab
+  artifactKey: Guid(d5102ccbd1e26ec47a75e8511502456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Normal Text (TMP).prefab using Guid(d5102ccbd1e26ec47a75e8511502456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '2e4b30b3e36e367ab8b4f84184cf8fbb') in 0.024623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Prefab/UI/Header 1 (TMP).prefab
+  artifactKey: Guid(ea8bf3637314c5e4fa7b7c924924c0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Header 1 (TMP).prefab using Guid(ea8bf3637314c5e4fa7b7c924924c0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '0ccca4bc32ef9dd214815b9095b5c1d1') in 0.014382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.681064 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(325303e47d3db544da950794d99e9c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(325303e47d3db544da950794d99e9c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4861b6afc0c19576be17945fd3b6bf09') in 0.007435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.151722 seconds.
+  path: Assets/Scripts/Managers
+  artifactKey: Guid(13d623244f565ba43870f6c23ca9513c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers using Guid(13d623244f565ba43870f6c23ca9513c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d05eda885ecd91edaad937aa09462b') in 0.013186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.882739 seconds.
+  path: Assets/Scripts/ScriptableObject_Bases
+  artifactKey: Guid(e81b9d79bdbb44244b561a148e5ab5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObject_Bases using Guid(e81b9d79bdbb44244b561a148e5ab5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd999e24c102e59d6b6fe9ab5a9e675') in 0.007864 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1352ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1087ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+				TypeCache.Initialize (280ms)
+					TypeCache.ScanAssembly (274ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (545ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5794 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.9 MB). Loaded Objects now: 6480.
+Memory consumption went from 0.90 GB to 0.90 GB.
+Total: 4.461000 ms (FindLiveObjects: 0.565900 ms CreateObjectMapping: 0.177500 ms MarkObjects: 3.369600 ms  DeleteObjects: 0.346600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 686.705531 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(a2b9e975e7158ae4aaa4f66a6f35b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(a2b9e975e7158ae4aaa4f66a6f35b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5305efa274ac6f6cdc112847eddd012') in 0.018682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.656661 seconds.
+  path: Assets/Audio/SFX
+  artifactKey: Guid(2814c04403c09bf4a90667e338ac4df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX using Guid(2814c04403c09bf4a90667e338ac4df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a455a2dccfefdb22197495e0c1c5ec') in 0.007618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.887717 seconds.
+  path: Assets/Audio/Music
+  artifactKey: Guid(169969029d464eb4aaeb1454a720600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music using Guid(169969029d464eb4aaeb1454a720600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b57d11fd31139393db2f6285c065e9') in 0.007275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.921138 seconds.
+  path: Assets/Audio/Main Mixer.mixer
+  artifactKey: Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Main Mixer.mixer using Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b574ba479ef29b700a9bd84fae54c6b6') in 0.022629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.562462 seconds.
+  path: Assets/Audio/Main Mixer.mixer
+  artifactKey: Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Main Mixer.mixer using Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455d32f8ef32fc59c31574129740c206') in 0.003688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.849699 seconds.
+  path: Assets/Audio/Main Mixer.mixer
+  artifactKey: Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Main Mixer.mixer using Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d7e85c5ed3387e51916f4f21e6fce7') in 0.003445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.750228 seconds.
+  path: Assets/Audio/Main Mixer.mixer
+  artifactKey: Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Main Mixer.mixer using Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3a273a1ddb3475d7544a3c50000a8d') in 0.003640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.165953 seconds.
+  path: Assets/Audio/Main Mixer.mixer
+  artifactKey: Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Main Mixer.mixer using Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8539017c197d89bbd065640253d57f54') in 0.003970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.932017 seconds.
+  path: Assets/Audio/Main Mixer.mixer
+  artifactKey: Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Main Mixer.mixer using Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0349b65d759721aecef1c981e0c97ccc') in 0.003259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.816237 seconds.
+  path: Assets/Audio/Main Mixer.mixer
+  artifactKey: Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Main Mixer.mixer using Guid(7cbe105986d938c40b62a4bf888c626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad3cf4451de8d4ea674ce5ae045834b') in 0.005087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 983.356972 seconds.
+  path: Assets/Audio/Music/Y2Mate.is - DANCE WITH THE DEAD - There's a Storm Coming-TQkvAlP8fz8-160k-1659561191241.mp3
+  artifactKey: Guid(e3db377008f66e74184176976d0b9b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Y2Mate.is - DANCE WITH THE DEAD - There's a Storm Coming-TQkvAlP8fz8-160k-1659561191241.mp3 using Guid(e3db377008f66e74184176976d0b9b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0aaca87151291f21815ed914c515984') in 0.146856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 208.988156 seconds.
+  path: Assets/Audio/Music/Y2Mate.is - DANCE WITH THE DEAD - Adrift-nCJyBcPu3K4-160k-1659561410738.mp3
+  artifactKey: Guid(a14e1e7ab16a049429a8c011e811f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Y2Mate.is - DANCE WITH THE DEAD - Adrift-nCJyBcPu3K4-160k-1659561410738.mp3 using Guid(a14e1e7ab16a049429a8c011e811f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ef1fef61f91e4f3e04aca12c20759b') in 0.020021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.123662 seconds.
+  path: Assets/ScriptabelObjects
+  artifactKey: Guid(cb161c9e081d3094aadf7cebc3ce9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptabelObjects using Guid(cb161c9e081d3094aadf7cebc3ce9089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8c378790f58fa41e878c15f3bddf50') in 0.008381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.693028 seconds.
+  path: Assets/ScriptabelObjects/Game Events
+  artifactKey: Guid(07301f8f05156144696631a5a1daa631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptabelObjects/Game Events using Guid(07301f8f05156144696631a5a1daa631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07117f0daca1f6cfa7081a905a629c9f') in 0.009645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.547928 seconds.
+  path: Assets/ScriptabelObjects/Game Events/SFXEvent.asset
+  artifactKey: Guid(9067f89a11271714c9231b0301b8240e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptabelObjects/Game Events/SFXEvent.asset using Guid(9067f89a11271714c9231b0301b8240e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3b656482fd3ac1a4b59462a6addf8e') in 0.010618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.986181 seconds.
+  path: Assets/Prefab/Button.prefab
+  artifactKey: Guid(46f25cc3e9716d341913fce8f75ba5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Button.prefab using Guid(46f25cc3e9716d341913fce8f75ba5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbd914bfdb17914796645b8755e16ae') in 0.060970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.851226 seconds.
+  path: Assets/Prefab/UI/Back Button Variant.prefab
+  artifactKey: Guid(19e1d007347c5a845b58c37076a5b53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Back Button Variant.prefab using Guid(19e1d007347c5a845b58c37076a5b53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdfb33258c5f4a7d9fec8090a6a0ebe') in 0.028382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.309679 seconds.
+  path: Assets/Prefab/UI/Back Button Variant.prefab
+  artifactKey: Guid(19e1d007347c5a845b58c37076a5b53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Back Button Variant.prefab using Guid(19e1d007347c5a845b58c37076a5b53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f87acf98eb782be57638ab3930aa76') in 0.024672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.595002 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX
+  artifactKey: Guid(7861c06f30845724dbb07dde40bbaa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX using Guid(7861c06f30845724dbb07dde40bbaa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f2663b553442c4ad8261dca04d1b99') in 0.007123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044965 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 01.wav
+  artifactKey: Guid(b95b580f8c683b54db706cea7273e20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 01.wav using Guid(b95b580f8c683b54db706cea7273e20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3458d76a6f37655aee0a29b3ed3f01c') in 0.030613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 03.wav
+  artifactKey: Guid(2f1c1b8ef7d5ca54681a849f6b200b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 03.wav using Guid(2f1c1b8ef7d5ca54681a849f6b200b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57e230aa2194d2e8f0eac721e2e1b4a') in 0.030876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 09.wav
+  artifactKey: Guid(923919c66b3c1c94cacaf3c1db58ea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 09.wav using Guid(923919c66b3c1c94cacaf3c1db58ea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d5be1ffa107b32c1413bbfac307118') in 0.050636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 24.wav
+  artifactKey: Guid(d95528091d66208499f1ecba1400f9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 24.wav using Guid(d95528091d66208499f1ecba1400f9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75e2bcb9ad48d333787e56104e5407f') in 0.025366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 06.wav
+  artifactKey: Guid(f1443c6f479be2b4e8cad9f0b508e3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 06.wav using Guid(f1443c6f479be2b4e8cad9f0b508e3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5d363e88659a635a00bba3a567d8af') in 0.019848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 21.wav
+  artifactKey: Guid(4329b325ded7a20409a30e0d3277de48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 21.wav using Guid(4329b325ded7a20409a30e0d3277de48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10fe4d1a956722a5fd3589677da0513') in 0.025198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Loading loop 02.wav
+  artifactKey: Guid(a6aed08f1b00df64fb7b02d8bea308c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Loading loop 02.wav using Guid(a6aed08f1b00df64fb7b02d8bea308c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704395858a5ed86986e07a48d436f5f2') in 0.020765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 22.wav
+  artifactKey: Guid(c88f4b79c424c9f479c94f75f37cc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 22.wav using Guid(c88f4b79c424c9f479c94f75f37cc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892d05915415922c170e6b032834519e') in 0.021463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 11.wav
+  artifactKey: Guid(832ee36b99731dd4a90ae59cb20295fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 11.wav using Guid(832ee36b99731dd4a90ae59cb20295fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9d13a33288f9f6127f59fd4b717a05') in 0.020751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 03.wav
+  artifactKey: Guid(09ca7724bc313114f89048c29f039e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 03.wav using Guid(09ca7724bc313114f89048c29f039e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e277699bdeccb3f50bc749cdd96061') in 0.022553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 14.wav
+  artifactKey: Guid(eb672cf5c524cd248b72850db3670acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 14.wav using Guid(eb672cf5c524cd248b72850db3670acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46db5885d5fc6f60e6c48e897b8d350f') in 0.019895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 27.wav
+  artifactKey: Guid(ebacfb066fbbcde478b3f77cc4c1e91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 27.wav using Guid(ebacfb066fbbcde478b3f77cc4c1e91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebc6ba16c3d0dad8f19adf4d0f8b505') in 0.023707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 12.wav
+  artifactKey: Guid(666ad96987d84284eb2a45a43bdc9319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 12.wav using Guid(666ad96987d84284eb2a45a43bdc9319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5c8975b0d6d879b674b45d5a81c387') in 0.024193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 05.wav
+  artifactKey: Guid(2486b62de786d904e9efad6773802073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 05.wav using Guid(2486b62de786d904e9efad6773802073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3ed0149c3e29cd7a2c82d7a7604ccf') in 0.023084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Loading loop 06.wav
+  artifactKey: Guid(33348875ac9d51e4ab0e15805422c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Loading loop 06.wav using Guid(33348875ac9d51e4ab0e15805422c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7183c66a1597f04565d5d7b94c56feda') in 0.019577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 30.wav
+  artifactKey: Guid(1bb3b8b1d37b1ac47a46fcb59f571131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 30.wav using Guid(1bb3b8b1d37b1ac47a46fcb59f571131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183387ab72b9b2eb312a823292d55a9e') in 0.022365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 07.wav
+  artifactKey: Guid(86e44f092f7f6d74aad28e170df8bc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 07.wav using Guid(86e44f092f7f6d74aad28e170df8bc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd149267ee8e8d09eb6194099dbb78853') in 0.021101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 18.wav
+  artifactKey: Guid(cb39fc0be3e1bfb4ea0c922339d5a940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 18.wav using Guid(cb39fc0be3e1bfb4ea0c922339d5a940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe13b2d785bc311b2bc3375655804c96') in 0.019491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 15.wav
+  artifactKey: Guid(fa2c2b6d23ba02e418715435480c6c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 15.wav using Guid(fa2c2b6d23ba02e418715435480c6c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af66c25b296b1c6a01a8c813bbe9e39d') in 0.033088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 12.wav
+  artifactKey: Guid(5028ccb33045a1047aea8402c7ba5d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 12.wav using Guid(5028ccb33045a1047aea8402c7ba5d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a622c9daf137fd0709f8caa6724be8c7') in 0.025998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 10.wav
+  artifactKey: Guid(4f4d45da2c11b304fa45f9af4a0706ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 10.wav using Guid(4f4d45da2c11b304fa45f9af4a0706ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff7b162d0743f153ccd33213c55ff88') in 0.021338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Loading loop 03.wav
+  artifactKey: Guid(47fcd4eb525fa154ba7def88637c5408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Loading loop 03.wav using Guid(47fcd4eb525fa154ba7def88637c5408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b19feab67ff41f71635a940905d798') in 0.020026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 26.wav
+  artifactKey: Guid(f5d26311660c6be42aced674b767d724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 26.wav using Guid(f5d26311660c6be42aced674b767d724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c620f1ef0b0d13f02030e438eb4b6325') in 0.018517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 23.wav
+  artifactKey: Guid(5c0163db743c6fe4eb50f66e9fed15b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 23.wav using Guid(5c0163db743c6fe4eb50f66e9fed15b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf04b206b75594170c2e873102a8fec') in 0.019143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Loading loop 01.wav
+  artifactKey: Guid(aed1ec535f96aa94792317b94c709088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Loading loop 01.wav using Guid(aed1ec535f96aa94792317b94c709088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffee672daee02b3ed921ceda4dcdf62') in 0.022656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 11.wav
+  artifactKey: Guid(bdc370a9b205651458d0d63cb14349d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 11.wav using Guid(bdc370a9b205651458d0d63cb14349d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bfe2d03fca02c29f1b6f8ddd0babbc') in 0.023223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 20.wav
+  artifactKey: Guid(b32f32f616162aa48a328b05b6968245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 20.wav using Guid(b32f32f616162aa48a328b05b6968245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e07873b3bf3f556a825c7fa4813f0aa') in 0.018159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 07.wav
+  artifactKey: Guid(1c60408e995f48a43b08689234734686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 07.wav using Guid(1c60408e995f48a43b08689234734686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4859d5adef509b29d182c0f98f7b74') in 0.018452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Click 04.wav
+  artifactKey: Guid(e591f68ce446af94d8c0b4826b63d5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Click 04.wav using Guid(e591f68ce446af94d8c0b4826b63d5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd4e4b7645477147cb0d82e9c167d04') in 0.021539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 01.wav
+  artifactKey: Guid(bace364b196a52048b781574891037b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/54 Interface SFX/Junkomory Transition 01.wav using Guid(bace364b196a52048b781574891037b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4def073cfdfd585250b1dcc7e86b71ac') in 0.020125 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
