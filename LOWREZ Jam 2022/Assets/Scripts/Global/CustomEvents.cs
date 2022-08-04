@@ -23,6 +23,10 @@ public class FloatEvent : UnityEvent<float>
 public class StringEvent : UnityEvent<string>
 {}
 
+  [System.Serializable]
+  public class Vector2IntEvent : UnityEvent<Vector2Int>
+  {}
+
 [System.Serializable]
 public class Vector2Event : UnityEvent<Vector2>
 {}
